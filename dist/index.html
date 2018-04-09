@@ -1,40 +1,114 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-	<!--<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>-->
-	<!--<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />-->
-	<link rel="icon" type="image/png" href="./assets/favicon.png">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" href="main.css"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--<link rel="icon" href="../../../../favicon.ico">-->
 
+	<title>Inmates</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Custom styles for this template -->
+	<link href="main.css" rel="stylesheet">
 </head>
+
 <body>
-<nav role="navigation" class="EastBoston_nav" >
-	<div id="menuToggle">
 
-		<input type="checkbox" />
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	<a class="navbar-brand" href="#">Inmate</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-		<!--
-        Some spans to act as a hamburger.
-        -->
-		<span></span>
-		<span></span>
-		<span></span>
-
-		<ul id="menu">
-			<a href="https://web.northeastern.edu/visualizingeastie/the-people" ><li style="font-size:2rem">The people</li></a>
-			<a href="https://web.northeastern.edu/visualizingeastie/the-environment"><li style="font-size:2rem">The environment</li></a>
-			<a href="https://web.northeastern.edu/visualizingeastie/the-built-city"><li style="font-size:2rem">The built city</li></a>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="main-story.html">Story</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="profile.html">Profile</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="letters.html">Letters</a>
+			</li>
 		</ul>
 	</div>
 </nav>
 
+<main role="main">
 
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-12 intro">
+					<h1 class="display-3 title">LETTERS OF PAIN AND HAPPINESS</h1>
+					<p class="byline">
+						Story by Catherine Lindsay<br/>
+						Design and development by Yan Wu
+					</p>
+					<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+					<p><a class="btn btn-danger btn-lg" href="#" role="button">About the project &raquo;</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<h6 class="EastBoston_footer"><span class="EastBoston_footer">Visualizing Eastie</span> is a project of the <a href="https://www.northeastern.edu/visualization/">Information Design and Visualization program</a> at Northeastern University. © 2018</h6>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src='./bundle.js' type='text/javascript'></script>
+	<div class="container">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-md-2 offset-md-2 col-12 bg-pic">
+				<a href="main-story.html"><img class="section-img" src="./image/mainStory.png"/></a>
+			</div>
+			<div class="col-md-6 col-12 main-story">
+				<h2 class="section">Main Story</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+				<p><a class="btn btn-danger" href="main-story.html" role="button">Read more &raquo;</a></p>
+			</div>
+
+			<div class="col-md-2 offset-md-2 col-12 bg-pic">
+				<a href="profile.html"><img class="section-img" src="./image/profile.png"/></a>
+			</div>
+			<div class="col-md-6 col-12 profile">
+				<h2 class="section">Profile</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+				<p><a class="btn btn-danger" href="profile.html" role="button">Read more &raquo;</a></p>
+			</div>
+
+			<div class="col-md-2 offset-md-2 col-12 bg-pic">
+				<a href="letters.html"><img class="section-img" src="./image/letters.png"/></a>
+			</div>
+			<div class="col-md-6 col-12 letter-section">
+				<h2 class="section">Letters</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+				<p><a class="btn btn-danger" href="letters.html" role="button">Read more &raquo;</a></p>
+			</div>
+
+		</div>
+
+		<hr>
+
+	</div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+	<p>&copy; Northeastern University</p>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./bundle.js"></script>
 </body>
 </html>
