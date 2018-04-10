@@ -65,3 +65,24 @@ a{
 .carousel-indicators .active{
     background-color: rgba(0, 0, 0, 0.9);
 }
+.hedshot{
+    width: 100%;
+    height: auto;
+}
+.new-letters-section{
+    margin-top: 100px;
+    font-family: Helvetica, Arial;
+}
+.letter-name{
+    margin-top: 50px;
+    font-weight: 900;
+    background-color: #900a28;
+    color:white;
+    text-align: center;
+}
+.letter-intro{
+    border-right: 4px solid #900a28;
+}
+.letters-title{
+    font-family: BentonSansCond-Bold, Helvetica, Arial;
+}
