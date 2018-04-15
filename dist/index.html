@@ -19,7 +19,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-	<a class="navbar-brand" href="#">Inmate</a>
+	<a class="navbar-brand" href="#"><img class="logo" src="image/logo2.png"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -38,6 +38,9 @@
 			<li class="nav-item">
 				<a class="nav-link" href="letters.html">Letters</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			</li>
 		</ul>
 	</div>
 </nav>
@@ -49,13 +52,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 offset-md-2 col-12 intro">
-					<h1 class="display-3 title">LETTERS OF PAIN AND HAPPINESS</h1>
+					<h1 class="display-3 title">Transgender people behind bars: In a prison of their own bodies</h1>
 					<p class="byline">
 						Story by Catherine Lindsay<br/>
 						Design and development by Yan Wu
 					</p>
-					<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-					<p><a class="btn btn-danger btn-lg" href="#" role="button">About the project &raquo;</a></p>
+					<p>One letter led to another, and another, until a story began to form. Corresponding with transgender inmates for over a year has revealed several systemic issues as well as controversial topics of debate.</p>
 				</div>
 			</div>
 		</div>
@@ -65,11 +67,11 @@
 		<!-- Example row of columns -->
 		<div class="row">
 			<div class="col-md-2 offset-md-2 col-12 bg-pic">
-				<a href="main-story.html"><img class="section-img" src="./image/mainStory.png"/></a>
+				<a href="main-story.html"><img class="section-img" src="./image/prison.jpg"/></a>
 			</div>
 			<div class="col-md-6 col-12 main-story">
-				<h2 class="section">Main Story</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+				<h2 class="section">Their struggle and the debate</h2>
+				<p>Transgender inmates face higher rates of sexual assault and denials of the healthcare they say they need. Whether or not they should get this medical treatment is the subject of controversy.</p>
 				<p><a class="btn btn-danger" href="main-story.html" role="button">Read more &raquo;</a></p>
 			</div>
 
@@ -77,17 +79,33 @@
 				<a href="profile.html"><img class="section-img" src="./image/profile.png"/></a>
 			</div>
 			<div class="col-md-6 col-12 profile">
-				<h2 class="section">Profile</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
-				<p><a class="btn btn-danger" href="profile.html" role="button">Read more &raquo;</a></p>
+				<h2 class="section">Their stories</h2>
+				<p>Transgender people come from varying backgrounds, but often experience the same struggles. Learn more about their personal journeys.</p>
+				<!--<p><a class="btn btn-danger" href="profile.html" role="button">Read more &raquo;</a></p>-->
+				<p>
+					<a class="btn btn-danger" data-toggle="collapse" href="#collapseProfile" role="button" aria-expanded="false" aria-controls="collapseExample">
+						Read more &raquo;
+					</a>
+				</p>
+				<div class="collapse" id="collapseProfile">
+					<div class="card card-body">
+						<p class="intro-black">Click on the images to read their story.</p>
+						<div class="row">
+							<div class="col-md-3 col-6 img-in-card"><a target="_blank" href="candace.html"><img class="collapsed-img" src="image/Candace.png"></a> Candace</div>
+							<div class="col-md-3 col-6 img-in-card"><img class="collapsed-img" src="image/Jessica.png"> Jessica</div>
+							<div class="col-md-3 col-6 img-in-card"><img class="collapsed-img" src="image/Michelle.png"> Michelle</div>
+							<div class="col-md-3 col-6 img-in-card"><img class="collapsed-img" src="image/Katheena.png"> Katheena</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="col-md-2 offset-md-2 col-12 bg-pic">
 				<a href="letters.html"><img class="section-img" src="./image/letters.png"/></a>
 			</div>
 			<div class="col-md-6 col-12 letter-section">
-				<h2 class="section">Letters</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+				<h2 class="section">Their letters</h2>
+				<p>The inmate population is often forgotten by society at large. Read some of their letters to know more about their daily concerns.”</p>
 				<p><a class="btn btn-danger" href="letters.html" role="button">Read more &raquo;</a></p>
 			</div>
 
