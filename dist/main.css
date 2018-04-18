@@ -209,3 +209,16 @@ footer{
     background-color: #8c1520;
     color: white;
 }
+.tooltip-img{
+    width: 400px;
+    height: auto;
+}
+.tooltip-demo a {
+    white-space: nowrap;
+}
+.btn.btn-outline-secondary.quote{
+    /*font-family: 'Nanum Brush Script', cursive;*/
+    font-family: 'Coming Soon', cursive;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
