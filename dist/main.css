@@ -20,7 +20,8 @@ body {
 .intro{
     margin-top: 100px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(144, 10, 40, 0.8);
+    color: white;
 }
 .byline{
     font-family: "Helvetica",sans-serif;
@@ -146,6 +147,7 @@ a{
 }
 .drop-cap{
     font-family: Benton, Helvetica, Arial;
+    font-weight: 900;
     font-size: 3em;
 }
 .profile-personal-img{
@@ -187,4 +189,23 @@ a{
 }
 footer{
     background-color: white;
+}
+.lg-img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+.sub-hed{
+    font-family: Helvetica-Bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.link{
+    font-family: "Times New Roman", Helvetica, Arial;
+    color: #8c1520;
+    text-decoration: underline;
+}
+.link:hover{
+    background-color: #8c1520;
+    color: white;
 }
