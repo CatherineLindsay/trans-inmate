@@ -16,6 +16,7 @@ body {
 .title{
     font-family: "BentonSansCond-Bold", "Helvetica-Bold", sans-serif;
     margin-top: 50px;
+    text-align: center;
 }
 .intro{
     margin-top: 100px;
@@ -162,7 +163,7 @@ a{
     margin: 5px 0px 5px 0px;
 }
 .align-right{
-    text-align: right;
+    text-align: center;
     margin-bottom: 80px;
 }
 .center-text{
@@ -218,7 +219,17 @@ footer{
 }
 .btn.btn-outline-secondary.quote{
     /*font-family: 'Nanum Brush Script', cursive;*/
-    font-family: 'Coming Soon', cursive;
-    font-size: 0.9em;
+    font-family: 'The+Girl+Next+Door', cursive;
+    font-size: 1.2em;
     margin-top: 10px;
+    width: 100%;
+    white-space: normal;
+}
+.popover{
+    max-width: 40%; /* Max Width of the popover (depending on the container!) */
+}
+.byline2{
+    font-family: Helvetica, Arial;
+    font-weight: 900;
+    text-align: right;
 }
