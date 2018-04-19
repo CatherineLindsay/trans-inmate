@@ -43,7 +43,11 @@ body {
 }
 
 .jumbotron{
-    background: #000 url('./image/Letters visual 1.jpeg') no-repeat center;
+     background: #000 url('./image/Letters visual 1.jpeg') no-repeat center;
+ }
+.jumbotron-main{
+    background: #000 url('./image/storyheader.jpg') no-repeat center;
+    margin: 50px 0px 50px 0px;
 }
 .hed-img{
     width: 100%;
